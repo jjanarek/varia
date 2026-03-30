@@ -1,5 +1,10 @@
 vim.wo.number = true -- Make line numbers default (default: false)
 vim.o.relativenumber = true -- Set relative numbered lines (default: false)
+
+-- Force English for messages and UI
+vim.cmd 'language en_US.UTF-8'
+vim.o.langmenu = 'en_US.UTF-8'
+
 vim.o.clipboard = 'unnamedplus' -- Sync clipboard between OS and Neovim. (default: '')
 vim.o.wrap = false -- Display lines as one long line (default: true)
 vim.o.linebreak = true -- Companion to wrap, don't split words (default: false)
